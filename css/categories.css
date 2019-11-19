@@ -1,0 +1,88 @@
+body {
+          color: rgb(0,0,0); //values go from 0 to 255
+          font-family: arial;
+          margin: 0.5px;
+          text-align: center;
+          background-size: cover;
+          box-sizing: border-box;
+          padding: 0;
+          margin: 0;
+}
+div{
+                        /*viewport height*/
+           /*viewport width*/
+          box-sizing: border-box;
+}
+
+h1 {
+          font-size: 5em;
+}
+.second {
+        font-size: 3em
+}
+h2 {
+          text-align: center;
+          font-size: 2.5em;
+}
+img{
+          display: flex;
+          padding: 20px;
+          margin: 0 auto; /* top, left, bottom, right. */
+          border-radius:100px;
+}
+p {
+      width: 50%;
+
+      font-size:2em;
+}
+a{
+      color:rgb(1,1,1);
+}
+
+div.contrast {
+      background-color: rgb(0,0,0);
+      color: rgb(1,1,1);
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      flex-direction:column;
+}
+ul {
+      list-style:none;
+      display:flex;
+}
+li {
+      margin: 0 20px;
+      transition: 0.6s ease;
+}
+li:hover {
+      font-size:1.2em;
+      transition: 0.6s ease;
+}
+.btn-twitter {
+  background: #00acee;
+  border-color: #009ad5;
+}
+.btn-twitter {
+  background: #00acee;
+  border-color: #009ad5;
+}
+.btn-facebook {
+  background: #4868ac;
+  border-color: #314776;
+}
+.btn-pinterest {
+  background: #b62f26;
+  border-color: #b62f26;
+}
+.hero {
+  min-height: 100vh;
+  text-align: center;
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+.social{
+  background-color:rgb(200,090,202);
+}
