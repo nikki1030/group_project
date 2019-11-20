@@ -1,3 +1,6 @@
+head {
+  color: rgb(020,100,002)
+}
 body {
           color: rgb(0,0,0); //values go from 0 to 255
           font-family: arial;
@@ -16,6 +19,7 @@ div{
 
 h1 {
           font-size: 5em;
+          color: rgb(0, 51, 0);
 }
 .second {
         font-size: 3em
@@ -29,9 +33,9 @@ img{
           padding: 20px;
           margin: 0 auto; /* top, left, bottom, right. */
           border-radius:100px;
+          max-height: 170px;
 }
 p {
-      width: 50%;
 
       font-size:2em;
 }
@@ -78,11 +82,20 @@ li:hover {
 .hero {
   min-height: 100vh;
   text-align: center;
-  background-image: url('../images/background.jpg');
-  background-size: cover;
-  background-attachment: fixed;
   color: white;
 }
 .social{
-  background-color:rgb(200,090,202);
+  background-color:rgb(020,100,002);
+}
+.para{
+  color: rgb(0, 51, 0);
+}
+.note, .notes {
+    color: white;
+}
+.notes {
+    font-size: 1em;
+}
+input {
+  margin: 10px;
 }

@@ -45,8 +45,6 @@
         </form>
       </div>
     </nav>
-
-
     <div class="hero">
       <h1>Recettee</h1>
       <h2 class ="second"> Our Motto: "Be Healthy"</h2>
@@ -91,6 +89,46 @@
         </div>
       </div>
     </div>
+
+    <h2 style="text-align:center">Our Portfolio of Recipes</h2>
+
+    <div class="container">
+     <div class="mySlides">
+       <div class="numbertext">1 / 3 </div>
+       <img src="images/pierogies.jpg" style="width:100%">
+     </div>
+
+     <div class="mySlides">
+       <div class="numbertext">2 / 3</div>
+       <img src="images/lasagne.jpg" style="width:100%">
+     </div>
+
+     <div class="mySlides">
+       <div class="numbertext">3 / 3</div>
+       <img src="images/katsu.jpg" style="width:100%">
+     </div>
+     <a class="prev" onclick="plusSlides(-1)">❮</a>
+     <a class="next" onclick="plusSlides(1)">❯</a>
+
+     <div class="caption-container">
+       <p id="caption"></p>
+     </div>
+
+     <div class="row">
+       <div class="column">
+         <img class="demo cursor" src="images/pierogies.jpg" style="width:100%" onclick="currentSlide(1)" alt="Perfect Pierogies">
+       </div>
+       <div class="column">
+         <img class="demo cursor" src="images/lasagne.jpg" style="width:100%" onclick="currentSlide(2)" alt="Luscious Lasange">
+       </div>
+       <div class="column">
+         <img class="demo cursor" src="images/katsu.jpg" style="width:100%" onclick="currentSlide(3)" alt="Crispy Katsu Curry">
+       </div>
+       </div>
+
+     </div>
+
+
     <div class="social">
     <div id='social-buttons'>
       <p class="note">Get involved! Share the dishes you create with us on social media!</p>
@@ -108,5 +146,6 @@
     </div>
     </div>
     </div>
+    <script src="js/index.js"> </script>
     </body>
     </html>
