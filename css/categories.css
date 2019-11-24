@@ -12,11 +12,8 @@ body {
           margin: 0;
 }
 div{
-                        /*viewport height*/
-           /*viewport width*/
           box-sizing: border-box;
 }
-
 h1 {
           font-size: 5em;
           color: rgb(0, 51, 0);
@@ -29,12 +26,14 @@ h2 {
           font-size: 2.5em;
 }
 img{
-          display: flex;
+          display: static;
           padding: 20px;
-          margin: 0 auto; /* top, left, bottom, right. */
+          margin: 0 auto;
           border-radius:100px;
           max-height: 170px;
 }
+
+
 p {
 
       font-size:2em;
@@ -79,11 +78,6 @@ li:hover {
   background: #b62f26;
   border-color: #b62f26;
 }
-.hero {
-  min-height: 100vh;
-  text-align: center;
-  color: white;
-}
 .social{
   background-color:rgb(020,100,002);
 }
@@ -98,4 +92,7 @@ li:hover {
 }
 input {
   margin: 10px;
+}
+.# {
+  colour: rgb(0, 51, 0);
 }
