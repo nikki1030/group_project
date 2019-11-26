@@ -97,3 +97,6 @@ input {
 .# {
   colour: rgb(0, 51, 0);
 }
+#logo {
+  max-height: 300px; !important
+}
